@@ -1,0 +1,40 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Journey to Degen with Yuggy — WHAD</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="bgCanvas" aria-hidden="true"></canvas>
+
+  <main id="app">
+    <header id="topbar">
+      <div id="price" title="Live SOL price">
+        <img id="solLogo" src="https://cryptologos.cc/logos/solana-sol-logo.png?v=025" alt="SOL">
+        <span id="solValue">—</span>
+      </div>
+      <a id="joinBtn" href="#" aria-label="Join Yuggy's After-Party">Join After-Party</a>
+    </header>
+
+    <section id="hero">
+      <h1 id="whad">WHAD</h1>
+      <p id="sub">Journey to Degen with Yuggy</p>
+      <div id="controls">
+        <button id="dontClick" aria-pressed="false">Don't Click</button>
+        <div id="byYuggy">by Yuggy</div>
+      </div>
+    </section>
+
+    <canvas id="coinCanvas" aria-hidden="true"></canvas>
+    <canvas id="chartCanvas" aria-hidden="true"></canvas>
+
+    <div id="tooLate" aria-hidden="true">TOO LATE.</div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
