@@ -1,3 +1,86 @@
+<style>
+body {
+  background: linear-gradient(135deg, #08000f, #140024, #000);
+  color: #e0e0e0;
+  font-family: 'Orbitron', sans-serif;
+  text-align: center;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  color: #C77DFF;
+  text-shadow: 0 0 10px #9D4EDD, 0 0 20px #7B2CBF;
+  letter-spacing: 2px;
+}
+
+a {
+  color: #39FF14;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s;
+}
+a:hover {
+  color: #C77DFF;
+  text-shadow: 0 0 10px #C77DFF;
+}
+
+code {
+  background: rgba(155, 89, 182, 0.15);
+  padding: 2px 6px;
+  border-radius: 4px;
+  color: #39FF14;
+  font-family: 'Courier New', monospace;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, #39FF14, transparent);
+}
+
+footer {
+  margin-top: 40px;
+  color: #C77DFF;
+  font-size: 0.9em;
+  text-shadow: 0 0 5px #9D4EDD;
+}
+
+.neon-box {
+  border: 1px solid #9D4EDD;
+  box-shadow: 0 0 15px #7B2CBF;
+  padding: 15px;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 10px;
+}
+
+h1::after {
+  content: "✨";
+  color: #39FF14;
+  margin-left: 10px;
+  text-shadow: 0 0 10px #39FF14;
+}
+</style>
+
+<h1>Journey to Degen with Yuggy</h1>
+
+Welcome to my digital playground.  
+A story of **dreams, chaos, and blockchain madness.**  
+
+<hr>
+
+<div class="neon-box">
+🚀 Building the WHAD Universe  
+🪙 Exploring Solana, DeFi & degen culture  
+💭 Dreaming out loud with code
+</div>
+
+<br>
+
+[Join the Journey](#) | [Follow me](#) | [Support WHAD](#)
+
+<footer>by <b>Yuggy</b> • The Dream Never Ends 💫</footer>
+
 # Journey-to-Degen-with-Yuggy
 # YUGGY'S AFTER-PARTY: THE SYSTEM VAULT (CHEAT CODES)
 
